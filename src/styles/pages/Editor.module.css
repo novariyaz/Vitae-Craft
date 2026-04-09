@@ -1,0 +1,119 @@
+.root {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--bg-workspace);
+}
+
+/* Left Input Panel */
+.left {
+    width: 450px;
+    height: 100vh;
+    overflow-y: auto;
+    background: #ffffff;
+    border-right: 1px solid var(--border-light);
+    box-shadow: var(--shadow-md);
+    z-index: 10;
+}
+
+/* Right Preview Workspace */
+.right {
+    flex: 1;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: var(--bg-workspace);
+}
+
+.fab {
+    position: fixed !important;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--accent-gradient) !important;
+    z-index: 100;
+    bottom: 30px !important;
+    right: 30px !important;
+    background: #4f46e5 !important;
+    color: white !important;
+    width: 56px !important;
+    height: 56px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3) !important;
+    z-index: 1000;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    cursor: pointer;
+}
+
+.fab:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(79, 70, 229, 0.4) !important;
+}
+
+/* Base Paper - To be combined with .paper-sim */
+.paper {
+    width: 21cm;
+    min-height: 29.7cm;
+    padding: 1.5cm; /* standard resume padding */
+    background: white;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
+
+@media print {
+    .root {
+        height: auto;
+        overflow: visible;
+        display: block;
+    }
+    
+    .left, .fab, button, nav {
+        display: none !important;
+    }
+
+    .right {
+        padding: 0;
+        margin: 0;
+        width: 21cm;
+        height: 29.7cm;
+        background: transparent;
+        display: block;
+    }
+
+    .paper {
+        margin: 0;
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        width: 21cm;
+        height: 29.7cm;
+    }
+}
+
+@media (max-width: 1024px) {
+    .root {
+        flex-direction: column;
+        height: auto;
+        overflow: visible;
+    }
+    .left, .right {
+        width: 100%;
+        height: auto;
+    }
+    .right {
+        padding: 1rem;
+    }
+    .paper {
+        width: 100%;
+        transform: scale(0.9);
+        transform-origin: top;
+    }
+}

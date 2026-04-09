@@ -1,0 +1,44 @@
+.root {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    width: 100%;
+}
+
+.header {
+    padding: 24px 24px 8px 24px;
+}
+
+.editorTitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0 0 4px 0;
+}
+
+.editorSubtitle {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+.panel {
+    text-align: left !important;
+}
+
+/* Scrollable tabs should be subtle */
+:global(.MuiTabs-root) {
+    border-bottom: 1px solid var(--border-light);
+    margin-bottom: 8px;
+    background-color: #f8fafc; /* Subtle background for tab list */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+@media screen and (max-width: 1194px) {
+    .root {
+        width: 100%;
+        margin: 0;
+    }
+}
