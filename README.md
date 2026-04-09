@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="./assets/readme/cover.png" alt="Folio AI Cover" width="100%" />
+  <img src="./assets/readme/cover.png" alt="VitaeCraft Cover" width="100%" />
 
-  # 🚀 Folio AI: The Modern Resume Builder
+  # 🏆 VitaeCraft: Master Your Career Narrative
   
   [![Deploy to GitHub Pages](https://github.com/novariyaz/Resume-Editor/actions/workflows/deploy.yml/badge.svg)](https://novariyaz.github.io/Resume-Editor/)
   [![React](https://img.shields.io/badge/React-17.0.2-61DAFB?logo=react&logoColor=black)](https://reactjs.org/)
@@ -10,30 +10,29 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=24&pause=1000&color=4F46E5&center=true&vCenter=true&width=435&lines=Craft+Stunning+Resumes;AI-Powered+Insights;6+Premium+Templates;Real-time+Editing" alt="Typing Animation" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=600&size=24&pause=1000&color=DAAF43&center=true&vCenter=true&width=435&lines=Craft+Excellence;AI-Powered+Precision;Elite+Resume+Templates;Seamless+Career+Growth" alt="Typing Animation" />
   </p>
 
-  **[Live Demo 🌐](https://novariyaz.github.io/Resume-Editor/)**
+  **[Experience VitaeCraft 🌐](https://novariyaz.github.io/Resume-Editor/)**
 </div>
 
 ---
 
-## ✨ Overview
+## 🏛️ The Vision
 
-**Folio AI** is a premium, high-performance resume builder designed for the modern professional. Built with **React**, **TypeScript**, and **Redux**, it offers a seamless, real-time editing experience with professional templates that help you stand out.
+**VitaeCraft** is more than just a resume builder; it is a professional's workshop. We believe that your career path deserves a narrative crafted with precision and elegance. Built on a foundation of **React 17** and **TypeScript**, VitaeCraft provides the tools to build industry-leading, ATS-optimized resumes that capture the attention of top-tier recruiters.
 
-### 🌟 Key Features
+### 💎 Signature Features
 
-- 🎨 **6+ Premium Templates**: Curated designs ranging from minimalist to creative.
-- ⚡ **Real-time Preview**: See your changes instantly as you type.
-- 🧩 **Modular Sections**: Easily add/edit Education, Experience, Skills, and more.
-- 📱 **Fully Responsive**: Build your resume on desktop, tablet, or mobile.
-- 🌓 **Dynamic Themes**: Sleek dark mode and elegant light mode support.
-- 📥 **Instant Export**: Download your resume in professional PDF format.
+- ⚜️ **Elite Templates**: Architected for visual impact and readability across all industries.
+- ⚡ **Real-time Foundry**: Watch your professional story unfold instantly as you edit.
+- 🛠️ **Modular Complexity**: Granular control over Education, Experience, and Skill matrices.
+- 📱 **Universal Access**: A pristine crafting experience across Desktop, Tablet, and Mobile.
+- 📥 **High-Fidelity Export**: Pixel-perfect PDF generation ready for submission.
 
 ---
 
-## 🛠️ Tech Stack
+## 🏗️ Architecture
 
 <table align="center">
   <tr>
@@ -54,7 +53,7 @@
       <br>MUI
     </td>
     <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS" />
+      <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS Modules" />
       <br>CSS Modules
     </td>
   </tr>
@@ -62,46 +61,43 @@
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Deployment & Installation
 
-Follow these steps to set up the project locally:
-
-### 1. Clone the repository
+### Local Setup
 ```bash
+# Clone the masterpiece
 git clone https://github.com/novariyaz/Resume-Editor.git
+
+# Enter the workshop
 cd Resume-Editor
-```
 
-### 2. Install dependencies
-```bash
+# Install dependencies
 npm install
-```
 
-### 3. Run the development server
-```bash
+# Start the engine
 npm start
 ```
-The app will be available at `http://localhost:3000`.
 
 ---
 
-## 📸 Inside Folio AI
+## 🗺️ Roadmap
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x450.png?text=Folio+AI+Interface+Preview" width="800" alt="App Preview" />
-  <p><i>More screenshots coming soon!</i></p>
-</div>
+- [x] Initial Release with 6 templates
+- [x] AI Assistant integration (Beta)
+- [ ] Export to Word/DOCX format
+- [ ] Multi-language localization support
+- [ ] Custom section builder
 
 ---
 
-## 🤝 Contributing
+## 🤝 Community & Support
 
-Contributions are welcome! If you have ideas for new templates or features, feel free to open an issue or submit a pull request.
+VitaeCraft is an open-source initiative. We welcome developers, designers, and career coaches to help us define the future of career documentation.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/MasterPiece`)
+3. Commit your Changes (`git commit -m 'Add some MasterPiece'`)
+4. Push to the Branch (`git push origin feature/MasterPiece`)
 5. Open a Pull Request
 
 ---
@@ -112,5 +108,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <div align="center">
   <br />
-  Made with ❤️ by [novariyaz](https://github.com/novariyaz)
+  **Crafted with excellence by [novariyaz](https://github.com/novariyaz)**
 </div>
