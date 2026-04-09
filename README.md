@@ -1,112 +1,117 @@
 <div align="center">
-  <img src="./assets/readme/cover.png" alt="VitaeCraft Cover" width="100%" />
+  <img src="./assets/readme/cover.png" alt="VitaeCraft Main Banner" width="100%" />
 
-  # 🏆 VitaeCraft: Master Your Career Narrative
+  # 🏆 VitaeCraft
+  ### *The Architect's Workshop for Professional Narratives*
   
-  [![Deploy to GitHub Pages](https://github.com/novariyaz/Resume-Editor/actions/workflows/deploy.yml/badge.svg)](https://novariyaz.github.io/Resume-Editor/)
+  [![Deploy to GitHub Pages](https://github.com/novariyaz/Vitae-Craft/actions/workflows/deploy.yml/badge.svg)](https://novariyaz.github.io/Vitae-Craft/)
   [![React](https://img.shields.io/badge/React-17.0.2-61DAFB?logo=react&logoColor=black)](https://reactjs.org/)
   [![TypeScript](https://img.shields.io/badge/TypeScript-4.1.2-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
   [![Redux](https://img.shields.io/badge/Redux-Toolkit-764ABC?logo=redux&logoColor=white)](https://redux-toolkit.js.org/)
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![MUI](https://img.shields.io/badge/Material--UI-4.11.4-0081CB?logo=material-ui&logoColor=white)](https://material-ui.com/)
 
   <p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=600&size=24&pause=1000&color=DAAF43&center=true&vCenter=true&width=435&lines=Craft+Excellence;AI-Powered+Precision;Elite+Resume+Templates;Seamless+Career+Growth" alt="Typing Animation" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=600&size=28&pause=1000&color=DAAF43&center=true&vCenter=true&width=500&lines=Precision+Driven;Recruiter+Approved;ATS+Optimized+Architectures;Your+Career,+Crafted." alt="Typing Animation" />
   </p>
 
-  **[Experience VitaeCraft 🌐](https://novariyaz.github.io/Resume-Editor/)**
+  **[Enter the Workshop 🌐](https://novariyaz.github.io/Vitae-Craft/)**
 </div>
 
 ---
 
-## 🏛️ The Vision
+## 💎 The Essence of VitaeCraft
 
-**VitaeCraft** is more than just a resume builder; it is a professional's workshop. We believe that your career path deserves a narrative crafted with precision and elegance. Built on a foundation of **React 17** and **TypeScript**, VitaeCraft provides the tools to build industry-leading, ATS-optimized resumes that capture the attention of top-tier recruiters.
+**VitaeCraft** is a high-fidelity, reactive resume engineering platform designed for individuals who view their career documentation as a work of art. Moving beyond simple form-filling, VitaeCraft offers a sophisticated workspace where design meets functionality.
 
-### 💎 Signature Features
-
-- ⚜️ **Elite Templates**: Architected for visual impact and readability across all industries.
-- ⚡ **Real-time Foundry**: Watch your professional story unfold instantly as you edit.
-- 🛠️ **Modular Complexity**: Granular control over Education, Experience, and Skill matrices.
-- 📱 **Universal Access**: A pristine crafting experience across Desktop, Tablet, and Mobile.
-- 📥 **High-Fidelity Export**: Pixel-perfect PDF generation ready for submission.
+Architected with **React 17**, specialized **Redux Toolkit** state management, and a strictly typed **TypeScript** core, VitaeCraft ensures that your data is handled with precision and your output is nothing short of elite.
 
 ---
 
-## 🏗️ Architecture
+## 🌟 Strategic Features
 
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
-      <br>React
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript" />
-      <br>TypeScript
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=redux" width="48" height="48" alt="Redux" />
-      <br>Redux
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=materialui" width="48" height="48" alt="Material UI" />
-      <br>MUI
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS Modules" />
-      <br>CSS Modules
-    </td>
-  </tr>
-</table>
+### 🎨 Elite Curation: 6 Signature Templates
+Explore a suite of six professionally architected templates. Each template is a specialized CSS-Module environment designed to balance white space, typography, and information density with executive-level grace.
+
+### ⚡ Real-Time Foundry
+Experience ultra-low latency updates. As you refine your experience or adjust your skills, the live preview renders instantly, allowing for an organic, iterative drafting process.
+
+### 🧠 Intelligent State Management
+Powered by a complex Redux architecture, VitaeCraft synchronizes your personal data, professional legacy, and educational milestones across multiple design environments without data loss or inconsistency.
+
+### 📥 High-Resolution PDF Engine
+Utilizes an optimized CSS print-media engine to generate vector-grade PDFs. This ensures that your resume remains crisp, searchable, and machine-readable for ATS (Applicant Tracking Systems).
 
 ---
 
-## 🚀 Deployment & Installation
+## 🛠️ Technical Fabric
 
-### Local Setup
-```bash
-# Clone the masterpiece
-git clone https://github.com/novariyaz/Resume-Editor.git
+### Core Technologies
+- **UI Framework:** [React 17](https://reactjs.org/) (Functional Components, Hooks)
+- **Type Safety:** [TypeScript 4](https://www.typescriptlang.org/) (Strict Mode)
+- **State Orchestra:** [Redux Toolkit](https://redux-toolkit.js.org/) (Slices & Thunks)
+- **Styling Philosophy:** [CSS Modules](https://github.com/css-modules/css-modules) (Scoped & Dynamic)
+- **Iconography:** [Material-UI Icons](https://material-ui.com/components/icons/)
+- **Typography:** Inter & Outfit (Variable Fonts for maximum readability)
 
-# Enter the workshop
-cd Resume-Editor
-
-# Install dependencies
-npm install
-
-# Start the engine
-npm start
+### Directory Structure
+```text
+src/
+├── components/   # Atomic & Molecular UI elements
+├── redux/        # Feature-sliced state management
+│   ├── ContactDetails/
+│   ├── EducationalDetails/
+│   └── ...
+├── pages/        # High-level route environments (Home, Editor)
+├── data/         # Mock data & Template definitions
+└── styles/       # Global tokens & Component-specific modules
 ```
 
 ---
 
-## 🗺️ Roadmap
+## 🚀 Deployment & Integrity
 
-- [x] Initial Release with 6 templates
-- [x] AI Assistant integration (Beta)
-- [ ] Export to Word/DOCX format
-- [ ] Multi-language localization support
-- [ ] Custom section builder
+### Local Installation
+Recommended for developers who wish to customize the underlying engine:
+
+```bash
+# Clone the repository
+git clone https://github.com/novariyaz/Vitae-Craft.git
+
+# Enter the architectural core
+cd Vitae-Craft
+
+# Synchronize dependencies
+npm install
+
+# Initialize the workshop
+npm start
+```
+
+### Production Build
+To generate an optimized, high-performance static build:
+```bash
+npm run build
+```
 
 ---
 
-## 🤝 Community & Support
+## 🤝 Contribution Excellence
 
-VitaeCraft is an open-source initiative. We welcome developers, designers, and career coaches to help us define the future of career documentation.
+If you are a design-forward engineer or a career strategist, we invite you to contribute to VitaeCraft. Our goal is to set the gold standard for global resume documentation.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/MasterPiece`)
-3. Commit your Changes (`git commit -m 'Add some MasterPiece'`)
-4. Push to the Branch (`git push origin feature/MasterPiece`)
-5. Open a Pull Request
+1. **Fork** the repository
+2. **Branch** off (`git checkout -b feature/NewTemplate`)
+3. **Commit** with meaning (`git commit -m 'feat: add minimalist executive template'`)
+4. **Push** to your origin
+5. **Open** a Pull Request
 
 ---
 
-## 📄 License
+## 📄 Sovereignty
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the **MIT License**. We empower our users to own their data and their destiny.
 
 <div align="center">
   <br />
-  **Crafted with excellence by [novariyaz](https://github.com/novariyaz)**
+  Designed & Engineered with Unwavering Quality by **[novariyaz](https://github.com/novariyaz)**
 </div>
