@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Vitae-Craft/static/css/main.c1da253d.chunk.css",
+    "main.js": "/Vitae-Craft/static/js/main.1284d6bc.chunk.js",
+    "main.js.map": "/Vitae-Craft/static/js/main.1284d6bc.chunk.js.map",
+    "runtime-main.js": "/Vitae-Craft/static/js/runtime-main.1126ee36.js",
+    "runtime-main.js.map": "/Vitae-Craft/static/js/runtime-main.1126ee36.js.map",
+    "static/js/2.7cadd6ee.chunk.js": "/Vitae-Craft/static/js/2.7cadd6ee.chunk.js",
+    "static/js/2.7cadd6ee.chunk.js.map": "/Vitae-Craft/static/js/2.7cadd6ee.chunk.js.map",
+    "static/js/3.b9b527ff.chunk.js": "/Vitae-Craft/static/js/3.b9b527ff.chunk.js",
+    "static/js/3.b9b527ff.chunk.js.map": "/Vitae-Craft/static/js/3.b9b527ff.chunk.js.map",
+    "index.html": "/Vitae-Craft/index.html",
+    "static/css/main.c1da253d.chunk.css.map": "/Vitae-Craft/static/css/main.c1da253d.chunk.css.map",
+    "static/js/2.7cadd6ee.chunk.js.LICENSE.txt": "/Vitae-Craft/static/js/2.7cadd6ee.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1126ee36.js",
+    "static/js/2.7cadd6ee.chunk.js",
+    "static/css/main.c1da253d.chunk.css",
+    "static/js/main.1284d6bc.chunk.js"
+  ]
+}
